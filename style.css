@@ -1,15 +1,16 @@
+/* Ändrar bakgrunden och tar bort tomrum runt sidan */
 body
 {
     margin:0px;
     background-color: gainsboro;
 }
-
+/* Bestämmer sidans bredd och centrerar den */
 #wrapper
 {
     width: 1400px;
     margin: auto;
 }
-
+/* Översta svarta delen */
 #top
 {
     background-color: #252525;
@@ -20,35 +21,36 @@ body
     font-family: Verdana, Geneva, sans-serif;
     letter-spacing: 1px;
 }
-
+/* Flyttar topplänkarna till vänster */
 #toplinks
 {
     margin-left: 11px;
     float: left;
 }
-
+/* Ändrar länkarna i top-delen */
 #top a
 {
     color: #ffffff;
     text-decoration: none;
 }
+/* Ändrar färg när musen är över länken */
 #top a:hover 
 {
     color: #f7641d;
 }
-
+/* Skapar mellanrum runt | */
 .divider
 {
     padding-left: 8px;
     padding-right: 8px;
 }
-
+/* Flyttar informationen åt höger */
 #rightinfo
 {
     float: right;
     margin-left: 115px;
 }
-
+/* Den vita headern */
 #header
 {
     height: 81px;
@@ -58,31 +60,31 @@ body
     font-size: 12px;
     letter-spacing: 1px;
 }
-
+/* Ändrar länkarna i headern */
 #header a
 {
     color: #000000;
     text-decoration: none;
 }
-
+/* Ändrar färg när musen är över länkarna i headern */
 #header a:hover
 {
     color: #f7641d;
 }
-
+/* Placerar vänstra delen av headern */
 #headerleft
 {
     float: left;
     margin-left: 144px;
     padding-top: 34px;
 }
-
+/* Placerar mitten av headern */
 #headermid
 {
     float:left;
     padding-left: 120px;
 }
-
+/* Placerar högra delen av headern */
 #headerright
 {
     float: left;
