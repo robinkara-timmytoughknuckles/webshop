@@ -91,3 +91,128 @@ body
     margin-left: 120px;
     padding-top: 34px;
 }
+/* Lägger till den stora bilden på framsidan */
+#frontImage
+{
+    background-image: url("front.jpg");
+    height: 582px; 
+    
+}   
+/* Ändrar utseendet och placeringen på SHOP NOW-knappen */
+#shopNowButton
+{
+    background-color: #f7641d;
+    font-family: Verdana, sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    width: 196px;
+    height: 52px;
+    border: 0px;
+    position: relative;
+    top: 364px;
+    left: 214px;
+    cursor: pointer;
+}
+/* Ändrar knappens färg när musen är över */
+#shopNowButton:hover
+{
+    background-color: #f7a71D;
+}
+/* Ändrar bakgrunden och höjden på kategorierna */
+#categories
+{
+    height: 410px;
+    background-color: #ffffff;
+}
+/* Centrerar tabellen och skapar mellanrum till höger */
+#categories table
+{
+    margin: auto;
+    padding-right: 30px;
+}
+/* Ändrar utseendet på texten och avståndet i tabellen */
+#categories td
+{
+    padding: 30px 0px 0px 30px;
+    font-family: Verdana, sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #000000;
+    text-align: center;
+}
+/* Tar bort understrykningen från länkarna */
+#categories td a
+{
+    text-decoration: none;
+}
+/* Ändrar länkarnas färg när musen är över */
+#categories td a:hover
+{
+    color: #f7641d;
+}
+/* Ändrar bakgrunden och storleken på nyhetsbrevet */
+#newsletter
+{
+    background-image: url("newsletter.jpg");
+    background-repeat: no-repeat;
+    background-color: #c69c6c;
+    height: 218px;
+    padding-top: 100px;
+}
+/* Ändrar storleken och placeringen på huvudrubriken */
+#newsletter h1
+{
+    display: inline;
+    font-size: 58px;
+    margin-right: 46px;
+}
+/* Ändrar utseendet på den mindre rubriken */
+#newsletter h2
+{
+    display: inline;
+    font-weight: lighter;
+    font-size: 38px;
+    letter-spacing: 4px;
+    margin-right: 40px;
+}
+/* Ändrar storleken och placeringen på e-postrutan */
+#EmailInput
+{
+    height: 34px;
+    width: 380px;
+    font-size: 16px;
+    color: black;
+    padding-left: 20px;
+    position: relative;
+    top: -6px;
+}
+/* Ändrar utseendet och placeringen på prenumerationsknappen */
+#subscribeButton
+{
+    background-color: #252525;
+    color: #ffffff;
+    font-family: Verdana, sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+    height: 40px;
+    width: 404px;
+    position: relative;
+    top: -12px;
+}
+/* Ändrar knappens färg när musen är över */
+#subscribeButton:hover
+{
+    background-color: #353535;
+    color: #f7941d;
+    cursor: pointer;
+}
+/* Ändrar utseendet och placeringen på texten under nyhetsbrevet */
+#newsletter p
+{
+    letter-spacing: 0px;
+    font-size: 13px;
+    text-align: center;
+    padding-right: 260px
+}
+
