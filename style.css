@@ -211,8 +211,77 @@ body
 #newsletter p
 {
     letter-spacing: 0px;
-    font-size: 13px;
+    font-size: 18px;
     text-align: center;
     padding-right: 260px
 }
-
+/* Ändrar bakgrundsfärgen på footern */
+footer
+{
+    background-color: #ffffff;
+}
+/* Centrerar tabellen och placerar texten åt vänster */
+#upperrow table
+{ 
+    margin: auto;
+    text-align: left;
+}
+/* Ändrar placeringen på länkarna i tabellen */
+#upperrow td a
+{
+    margin: auto;
+    text-align: left;
+}
+/* Ändrar storleken och utseendet på rubrikerna */
+#upperrow td h2
+{
+    font-size: 22px;
+    font-weight: bold;
+    padding-right: 100px;
+    font-family: Verdana, sans-serif; 
+}
+/* Ändrar storleken och utseendet på länkarna */
+#upperrow td a
+{
+    font-size: 20px;
+    font-weight: normal;
+    padding-right: 100px; 
+    font-family: Verdana, sans-serif;
+    text-decoration: none;
+    color:#000000
+}
+/* Ändrar färgen på länkarna när musen är över */
+#upperrow td a:hover
+{
+    color: #f7641d;
+}
+/* Ändrar storleken och utseendet på texten */
+#upperrow td p 
+{
+    font-size: 14px;
+    font-weight: normal;
+    padding-right: 100px; 
+    font-family: Verdana, sans-serif;
+}
+/* Ändrar storleken och utseendet på den fetare texten */
+#upperrow td h1
+{
+    font-size: 16px;
+    font-weight: bolder;
+    padding-right: 100px; 
+    font-family: Verdana, sans-serif;
+}
+/* Den nedersta delen av footern */
+#bottom
+{
+    width: auto;
+    background-color:#252525;
+    height: 35px;
+}
+/* Ändrar färgen och storleken på copyright-texten */
+#copyright
+{
+    color:#ffffff;
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+}
